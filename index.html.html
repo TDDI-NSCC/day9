@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Taylor's Form</title>
+</head>
+<body>
+<h1>Taylor's Sample Form</h1>
+<p>Hello and welcome to my sample form please fill it out and send it in </p>
+
+<form action="mailto:W0468756@campus.nssc.ca?subject=From%20our%20Website" 
+method="post" enctype="text/plain">
+
+  <br>  
+  
+    Your first and Last Name:<br>
+    <input type="text" name="YourName" minlength="2" required="required" size="50"><br>
+    
+    Your age:<br>
+    <input type="number" name="YourAge" min="16" max=100 required="required"><br>
+
+    Your city:<br>
+    <input type="text" name="YourCity" minlength="2" required="required"><br>
+
+    Your phone number:<br>
+    <input type="tel" id="phone" name="YourPhone"
+    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+    required="required"><br>
+    
+    Your favorite colour:<br>
+    <input type="color"><br>
+    
+    Your Province or Territory:<br>
+    <select id="Provinces">
+        <option value="Alberta">Alberta</option>
+        <option value="British Columbia">British Columbia</option>
+        <option value="Manitoba">Manitoba</option>
+        <option value="New Brunswick">New Brunswick</option>
+        <option value="Newfoundland and Labrador">Newfoundland and Labrador</option>
+        <option value="Northwest Territories">Northwest Territories</option>
+        <option value="Nova Scotia">Nova Scotia</option>
+        <option value="Nunavut">Nunavut</option>
+        <option value="Ontario">Ontario</option>
+        <option value="Prince Edward Island">Prince Edward Island</option>
+        <option value="Quebec">Quebec</option>
+        <option value="Saskatchewan">Saskatchewan</option>
+        <option value="Yukon">Yukon</option>
+    </select><br>
+    <br>
+    <input type="submit" value="Send">
+    <input type="reset" value="Reset">
+</form>
+</body>
+</html>
+
